@@ -1,4 +1,4 @@
-package com.example.SringTotutialGradle2;
+package com.example.SringTotutialGradle;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,13 +1,10 @@
-package com.example.SpringToturialGradle;
+package com.example.SringTotutialGradle;
 
-import com.example.SringTotutialGradle2.UserOneDAO;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.example.SringTotutialGradle2")
 public class SpringToturialGradleApplication2 {
 
     public static void main(String[] args) {
@@ -16,7 +13,7 @@ public class SpringToturialGradleApplication2 {
 
         UserOneDAO userDAO1 = applicationContext.getBean(UserOneDAO.class);
         System.out.println(userDAO1);
-//        System.out.println(userDAO1.getJdbcOneConnection());
+        System.out.println(userDAO1.getJdbcOneConnection());
 
 
     }
