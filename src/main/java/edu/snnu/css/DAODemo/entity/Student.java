@@ -1,9 +1,16 @@
 package edu.snnu.css.DAODemo.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.NamedQuery;
 import java.util.Date;
 
+@Entity
+@NamedQuery(name ="fetch_all_Students",query = "select  s from  Student s")
 public class Student {
+    @Id
     private String id;
+    
     private String name;
     private  String location;
     private Date birthDate;
