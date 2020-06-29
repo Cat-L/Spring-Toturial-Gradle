@@ -1,4 +1,4 @@
-package edu.snnu.css.DAODemo.entity;
+package edu.snnu.css.EndDemo.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

@@ -1,4 +1,4 @@
-package edu.snnu.css.DAODemo;
+package edu.snnu.css.EndDemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
