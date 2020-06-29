@@ -1,17 +1,13 @@
-package edu.snnu.css.DAODemo;
+package edu.snnu.css.EndDemo;
 
-import edu.snnu.css.DAODemo.dao.StudentDAO;
-import edu.snnu.css.DAODemo.dao.StudentJPADao;
-import edu.snnu.css.DAODemo.entity.Student;
-import edu.snnu.css.DAODemo.springData.StudentRepo;
+
+import edu.snnu.css.EndDemo.springData.StudentRepo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.util.Date;
 
 @SpringBootApplication
 public class SpringDataApplication implements CommandLineRunner {
